@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+			integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>ChatCord App</title>
+	</head>
+	<body>
+		<header class="header">
+			<a href='#' class="logo">ChatCord.</a>
+			<nav class="navbar">
+				<a href="chatbot.html" class="active">Chat with AI</a>
+			</nav>
+		</header>
+
+		<div class="join-container">
+			<!-- <header class="join-header">
+				<h1><i class="fas fa-smile"></i> ChatCord</h1>
+			</header> -->
+			<main class="join-main">
+				<h2>Join Now.</h2>
+				<form action="chat.html">
+					<div class="form-control">
+						<label for="username">Username</label>
+						<input
+							type="text"
+							name="username"
+							id="username"
+							placeholder="Enter username..."
+							required
+						/>
+					</div>
+					<div class="form-control">
+						<label for="room">Room</label>
+						<select name="room" id="room">
+							<!-- <option value="JavaScript">JavaScript</option>
+							<option value="Python">Python</option>
+							<option value="PHP">PHP</option>
+							<option value="C#">C#</option>
+							<option value="Ruby">Ruby</option>
+							<option value="Java">Java</option> -->
+						</select>
+					</div>
+					<button type="submit" class="btn">Join Chat</button>
+				</form>
+				
+				<label for="roomname">Room Name</label>
+						<input
+							type="text"
+							name="room name"
+							id="roomname"
+							placeholder="Enter roomname..."
+						/>
+				<button type="submit" class="btn" id="createRoom">Create Room</button>
+
+				<!-- <form action="chatbot.html">
+					<button type="submit" class="btn">OR</button>
+					<button type="submit" class="btn" >Chat with AI :)</button>
+				</form> -->
+			</main>
+		</div>
+		<script src="main2.js"></script>
+		<script src="main.js"></script>
+		
+	</body>
+</html>
